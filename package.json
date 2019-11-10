@@ -1,0 +1,29 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "hello jenkins test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dikshant2929/node-app.git"
+  },
+  "keywords": [
+    "jenkins"
+  ],
+  "author": "dikshant godara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dikshant2929/node-app/issues"
+  },
+  "dependencies": {
+    "express": "3.12.0"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  },
+  "homepage": "https://github.com/dikshant2929/node-app#readme"
+}
